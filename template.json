@@ -1,0 +1,176 @@
+{
+  "title": "Welcome to waw Template",
+  "description": "description",
+  "keywords": "keywords",
+	"prefix": "/rohovskanika",
+  "picture": "picture",
+  "author": "author",
+  "moderators": [],
+  "scss": "scss/index.scss",
+  "variables": {
+		"primary_color": "#d9ff00;",
+		"video": "/rohovskanika/img/production.mp4",
+		"ceo_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+		"logo_text": "content",
+		"intro_bg": "/rohovskanika/img/content.jpg",
+		"bg_section": "/rohovskanika/img/content_bg2.jpg",
+		"intro_mini_bg1": "/rohovskanika/img/flo1.jpg",
+		"intro_mini_bg2": "/rohovskanika/img/flo2.jpg",
+		"intro_mini_bg3": "/rohovskanika/img/flo3.jpg",
+		"land_decor": "1",
+		"land_head_text": "econtent.wiki.site",
+		"land_head_text2": "Plunge into the world of virtual communication!",
+		"contact_text": " Don't forget to subscribe to our newsletters and social networks",
+		"email_text": "ceo@webart.work",
+		"link_instagram": "https://instagram.com/kpcity2023?igshid=OGQ5ZDc2ODk2ZA==",
+		"link_facebook": "https://www.facebook.com/profile.php?id=100094157589278",
+		"link_telegram": "https://t.me/wawkpcity",
+		"thumb_people1": "rohovskanika/img/personal.jpg",
+		"thumb_people2": "rohovskanika/img/personal.jpg",
+		"thumb_people3": "rohovskanika/img/personal.jpg",
+		"thumb_people4": "rohovskanika/img/personal.jpg",
+		"name_people1": "Mark",
+		"name_people2": "Catherine",
+		"name_people3": "JessieCa",
+		"name_people4": "Andrew",
+		"role_1": "Role",
+		"role_2": "Role",
+		"role_3": "Role",
+		"role_4": "Role",
+		"contact_1": "+38012345678",
+		"contact_2": "+38012345678",
+		"contact_3": "+38012345678",
+		"contact_4": "+38012345678"
+	},
+  "footer": {
+    "portfolios": [
+      {
+        "id": "/portfolio",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "portfolio"
+      },
+      {
+        "id": "/portfolio",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "portfolio"
+      },
+      {
+        "id": "/portfolio",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "portfolio"
+      },
+      {
+        "id": "/portfolio",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "portfolio"
+      }
+    ],
+    "products": [
+      {
+        "id": "/product",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "product"
+      },
+      {
+        "id": "/product",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "product"
+      },
+      {
+        "id": "/product",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "product"
+      }
+    ],
+    "services": [
+      {
+        "id": "/service",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "service"
+      },
+      {
+        "id": "/service",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "service"
+      },
+      {
+        "id": "/service",
+        "price": 1200,
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "service"
+      }
+    ],
+    "articles": [
+      {
+        "id": "/article",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "article"
+      },
+      {
+        "id": "/article",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "article"
+      },
+      {
+        "id": "/article",
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+        "thumb": "https://neryxomka.com/template/img/welcome.png",
+        "name": "article"
+      }
+    ]
+  },
+  "tags": [
+		{
+			"category": {
+				"group": "article"
+			},
+			"name": "Tag one"
+		},
+    {
+			"category": {
+				"group": "portfolio"
+			},
+			"name": "Tag one"
+		},
+    {
+			"category": {
+				"group": "product"
+			},
+			"name": "Tag one"
+		},
+    {
+			"category": {
+				"group": "service"
+			},
+			"name": "Tag one"
+		}
+	],
+	"groups": [
+		{
+			"categories": [
+				{
+					"name": "Category Name",
+					"tags": [
+						{
+							"name": "Tag Name"
+						}
+					]
+				}
+			]
+		}
+	]
+}
+

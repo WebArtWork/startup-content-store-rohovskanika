@@ -1,0 +1,111 @@
+<header class="intro">
+	<div class="intro-body">
+		<div class="intro-all">
+			<h1 class="brand-heading">{{{variables.land_head_text}}}</h1>
+			<p class="intro-text">
+				{{{variables.land_head_text2}}}
+			</p>
+		</div>
+	</div>
+	</div>
+</header>
+
+<section id="page-sample">
+	{% if articles.length %}
+	<div class="polosa">
+		<div class="container content-section">
+			<h3>Articles</h3>
+			<div class="row">
+				{% for article in articles %}
+				<div class="col-md-4">
+					<a href="/articles">
+						<div class="card">
+							<img src="{{{article.thumb}}}" alt="{{{article.name}}}" class="img-rounded">
+							<div class="card-body">
+								<h4 class="card-title">{{{article.name}}}</h4>
+								<p class="text-as">{{{article.short}}} </p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% if portfolios.length %}
+	<div class="polosa">
+		<div class="container content-section">
+			<h3> Portfolio </h3>
+			<div class="owl-carousel owl-theme owl-courses">
+				{% for portfolio in portfolios %}
+				<a href="/portfolios">
+					<div class="item">
+						<div class="courses-thumb">
+							<div class="courses-top">
+								<div class="courses-image">
+									<img src="{{{portfolio.thumb}}}" alt="{{{portfolio.name}}}">
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% if products.length %}
+	<div class="polosa">
+		<div class="container content-section">
+			<h3>Products</h3>
+			<div class="row">
+				{% for product in products %}
+				<div class="col-md-4">
+					<a href="/products">
+						<div class="card">
+							<img src="{{{product.thumb}}}" alt="{{{product.name}}}" class="img-rounded">
+							<div class="card-body">
+								<h4 class="card-title">{{{product.name}}}</h4>
+								<p class="text-as">{{{product.short}}}</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% if services.length %}
+	<div class="polosa">
+		<div class="container content-section">
+			<h3>services</h3>
+			<div class="row">
+				{% for service in services %}
+				<div class="col-md-4">
+					<a href="/services">
+						<div class="card">
+							<img src="{{{service.thumb}}}" alt="{{{service.name}}}" class="img-rounded">
+							<div class="card-body">
+								<h4 class="card-title">{{{service.name}}}</h4>
+								<p class="text-as">{{{service.short}}}</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	
+	<div class="polosa">
+		{% if variables.video %}
+		<video controls class="video">
+			<source src="{{{variables.video}}}" type="video/mp4">
+		</video>
+		{% endif %}
+	</div>
+	
+</section>
